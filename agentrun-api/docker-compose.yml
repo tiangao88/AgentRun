@@ -10,7 +10,7 @@ services:
     ports:
       - "8181:8181"
     env_file:
-      - ./.env.dev 
+      - ./.env.dev:.env 
 
   python_runner:
     build:
